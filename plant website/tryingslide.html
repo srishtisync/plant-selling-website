@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head><style>
+body{
+  width:100vw;
+  overflow:hidden;
+background:#8eb58d;}
+#grid{
+  //background:black;
+  position:absolute;
+  bottom:9vh;
+  width:150vw;
+  overflow: visible;}
+div{float:left;margin-left:2vw;position:relative;overflow:hidden}
+#one{
+  height:40vh;
+  width:30vw;
+  animation:slide1 20s infinite linear;
+ overflow:visible;
+ //overflow-y : visible;
+  }
+  #one img{
+    position:absolute;
+    width:80vw;
+    height:80vh;
+    bottom:-7vh;
+    left:-40vw;
+  }
+#two{
+  height:30vh;
+  width:15vw;
+  top:10vh;
+ animation:slide2 20s infinite  linear;
+ overflow: visible;
+  }
+#two img{
+  position:absolute;
+  width:60vw;
+  height:60vh;
+  bottom:-10vh;
+  left:-22vw;
+}
+
+
+
+#three{
+  height:30vh;
+  width:15vw;
+  top:10vh;
+  animation:slide3 20s infinite  linear;
+ overflow: visible;
+  }
+  #three img{
+    position:absolute;
+    width:35vw;
+    height:35vh;
+    bottom:-4vh;
+    left:-18.5vw;
+  }
+#four{
+  height:30vh;
+  width:15vw;
+  top:10vh;
+  animation:slide4 20s infinite  linear;
+  overflow: visible;
+  }
+
+  #four img{
+    position:absolute;
+    width:23vw;
+    height:33vh;
+    bottom:-3.6vh;
+    left:-7.7vw;
+  }
+
+#five{
+  height:30vh;
+  width:15vw;
+  top:10vh;
+  animation:slide5 20s infinite linear;
+  overflow: visible;
+
+  }
+  #five img{
+    position:absolute;
+    width:30vw;
+    height:40vh;
+    bottom:-3.8vh;
+    left:-7.7vw;
+  }
+
+#six{
+  height:30vh;
+  width:15vw;
+  top:10vh;
+  animation:slide6 20s infinite linear;
+  overflow: visible;
+
+  }
+  #six img{
+    position:absolute;
+    width:40vw;
+    height:40vh;
+    bottom:-4vh;
+    left:-11vw;
+  }
+
+
+/*  @keyframes slide1{
+ 0%{ right :0vw;opacity:1;transform: scale(1,1);top:0;}
+ 10%{right :0vw;opacity:1;transform: scale(1,1);top:0;}
+
+ 20%{right:-41.5vw;opacity:1;transform: scale(0.5,0.75);top:5vh;}
+ 100%{right:-41.5vw;opacity:1;transform: scale(0.5,0.75);top:5vh;}
+
+ }
+*/
+
+@keyframes slide1{
+ 0%{ right :0vw;opacity:1;transform: scale(1,1.5);top:-4vh;}
+ 10%{right :0vw;opacity:1;transform: scale(1,1.5);top:-4vh;}
+ 15%{right:120vw;opacity:1;transform: scale(1, 1.5);opacity:0;top:5vh;}
+ 25%{right:-90vw;opacity:1;transform: scale(0.5,0.75);opacity:0;top:5vh;}
+ 30%{right:-75.5vw;opacity:1;transform: scale(0.5,0.75);top:55vhvh;}
+ 40%{right:-75.5vw;opacity:1;transform: scale(0.5,0.75);top:5vh;}
+ 45%{right:-58.5vw;opacity:1;transform: scale(0.5,0.75);top:5vh;}
+ 55%{right:-58.5vw;opacity:1;transform: scale(0.5,0.75);top:5vh;}
+ 60%{right:-41.5vw;opacity:1;transform: scale(0.5,0.75);top:5vh;}
+ 70%{right:-41.5vw;opacity:1;transform: scale(0.5,0.75);top:5vh;}
+ 75%{right:-24.5vw;opacity:1;transform: scale(0.5,0.75);top:5vh;}
+ 85%{right:-24.5vw;opacity:1;transform: scale(0.5,0.75);top:5vh;}
+ 90%{right:0vw;opacity:1;transform: scale(1, 1.5);top:-4vh;}
+ 100%{right:0vw;opacity:1;transform: scale(1, 1.5);top:-4vh;}}
+
+
+
+
+
+
+/*@keyframes slide1{
+ 0%{ right :0vw;opacity:1;transform: scale(1,1);top:0px;}
+ 10%{right :0vw;opacity:1;transform: scale(1,1);top:0px;}
+ 15%{right:120vw;opacity:1;transform: scale(1, 1);opacity:0;top:0px;}
+ 25%{right:-80vw;opacity:1;transform: scale(0.5,0.75);opacity:0;top:30px;}
+ 30%{right:-68vw;opacity:1;transform: scale(0.5,0.75);top:10vh;}
+ 40%{right:-68vw;opacity:1;transform: scale(0.5,0.75);top:30px;}
+ 45%{right:-51vw;opacity:1;transform: scale(0.5,0.75);top:30px;}
+ 55%{right:-51vw;opacity:1;transform: scale(0.5,0.75);top:30px;}
+ 60%{right:-34vw;opacity:1;transform: scale(0.5,0.75);top:30px;}
+ 70%{right:-34vw;opacity:1;transform: scale(0.5,0.75);top:30px;}
+ 75%{right:-17vw;opacity:1;transform: scale(0.5,0.75);top:30px;}
+ 85%{right:-17vw;opacity:1;transform: scale(0.5,0.75);top:30px;}
+ 90%{right:0vw;opacity:1;transform: scale(1, 1);top:0px;}
+ 100%{right:0vw;opacity:1;transform: scale(1, 1);top:0px;}
+
+
+}  */
+/*@keyframes slide1{
+ 0%{right:120vw;opacity:1;transform: scale(2, 2);opacity:0}
+ 10%{right:-80vw;opacity:1;transform: scale(1, 1);opacity:0}
+ 15%{right:-68vw;opacity:1;transform: scale(1, 1)}
+ 25%{right:-68vw;opacity:1;transform: scale(1, 1)}
+ 30%{right:-51vw;opacity:1;transform: scale(1, 1)}
+ 40%{right:-51vw;opacity:1;transform: scale(1, 1)}
+ 45%{right:-34vw;opacity:1;transform: scale(1, 1)}
+ 55%{right:-34vw;opacity:1;transform: scale(1, 1)}
+ 60%{right:-34vw;opacity:1;transform: scale(1, 1)}
+ 70%{right:-34vw;opacity:1;transform: scale(1, 1)}
+ 75%{right:-17vw;opacity:1;transform: scale(1, 1)}
+ 85%{right:-17vw;opacity:1;transform: scale(1, 1)}
+ 90%{right:0vw;opacity:1;transform: scale(1, 1)}
+ 100%{right:0vw;opacity:1;transform: scale(1, 1)}
+
+
+}    */
+
+@keyframes slide2{
+ 0%{ right :0vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 10%{right :0vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 15%{right:24vw;opacity:1;transform: scale(2, 2);top:1vh;}
+ 25%{right:24vw;opacity:1;transform: scale(2, 2);top:1vh;}
+ 30%{right:120vw;opacity:1;transform: scale(2,2);opacity:0;top:1vh;}
+ 40%{right:-80vw;opacity:1;transform: scale(1, 1);opacity:0;top:10vh;}
+ 45%{right:-51vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 55%{right:-51vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 60%{right:-34vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 70%{right:-34vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 75%{right:-17vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 85%{right:-17vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 90%{right:0vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 100%{right:0vw;opacity:1;transform: scale(1, 1);top:10vh;}
+
+
+}
+
+
+
+
+
+@keyframes slide3{
+ 0%{ right :0vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 10%{right :0vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 15%{right :17vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 25%{right:17vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 30%{right:41vw;opacity:1;transform: scale(2,2);top:1vh;}
+ 40%{right:41vw;opacity:1;transform: scale(2, 2);top:1vh;}
+ 45%{right:120vw;opacity:1;transform: scale(2,2);opacity:0;top:1vh;}
+ 55%{right:-60vw;opacity:1;transform: scale(1, 1);opacity:0;top:10vh;}
+ 60%{right:-34vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 70%{right:-34vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 75%{right:-17vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 85%{right:-17vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 90%{right:0vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 100%{right:0vw;opacity:1;transform: scale(1, 1);top:10vh;}
+
+
+}
+
+
+
+
+@keyframes slide4{
+ 0%{ right :0vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 10%{right :0vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 15%{right :17vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 25%{right:17vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 30%{right:34vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 40%{right:34vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 45%{right:58vw;opacity:1;transform: scale(2,2);top:1vh;}
+ 55%{right:58vw;opacity:1;transform: scale(2,2);top:1vh;}
+ 60%{right:120vw;opacity:1;transform: scale(2,2);opacity:0;top:1vh;}
+ 70%{right:-40vw;opacity:1;transform: scale(1, 1);opacity:0;top:10vh;}
+ 75%{right:-17vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 85%{right:-17vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 90%{right:0vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 100%{right:0vw;opacity:1;transform: scale(1, 1);top:10vh;}
+
+
+}
+@keyframes slide5{
+ 0%{ right :0vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 10%{ right :0vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 15%{right:17vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 25%{right:17vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 30%{right:34vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 40%{right:34vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 45%{right:51vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 55%{right:51vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 60%{right:75vw;opacity:1;transform: scale(2, 2);top:1vh;}
+ 70%{right:75vw;opacity:1;transform: scale(2,2);top:1vh;}
+ 75%{right:120vw;opacity:1;transform: scale(2,2);opacity:0;top:1vh;}
+ 85%{right:-40vw;opacity:1;transform: scale(1, 1);opacity:0;top:10vh;}
+ 90%{right:0vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 100%{right:0vw;opacity:1;transform: scale(1, 1);top:10vh;}
+
+
+}
+
+
+@keyframes slide6{
+ 0%{ right :0vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 10%{ right :0vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 15%{right:17vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 25%{right:17vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 30%{right:34vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 40%{right:34vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 45%{right:51vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 55%{right:51vw;opacity:1;transform: scale(1,1);top:10vh;}
+ 60%{right:68vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 70%{right:68vw;opacity:1;transform: scale(1, 1);top:10vh;}
+ 75%{right:92vw;opacity:1;transform: scale(2,2);top:1vh;}
+ 85%{right:92vw;opacity:1;transform: scale(2, 2);top:1vh;}
+ 90%{right:120vw;opacity:1;transform: scale(2,2);opacity:0;top:1vh;}
+ 100%{right:-40vw;opacity:1;transform: scale(1, 1);opacity:0;top:10vh;}
+
+
+}
+.bar{
+  padding:0;
+  margin:0;
+  list-style-type:none;
+  display:flex;
+  flex-wrap:wrap;
+
+  }
+.bar li{
+ float:left;
+ flex:20%}
+
+.bar li a{
+  text-decoration:none;
+  display:block;
+  text-align:center;
+  padding:2vh 0 2vh 0;
+  font-size:3.5vh;
+  color:black;
+  }
+
+.bar li a:hover {
+  background-color:#c4e6c3;
+}
+.intro{
+  position:absolute;
+  left:30vw;}
+
+
+.divtext{
+  position: absolute;
+  top:55%;
+  left:40%;
+  z-index:10;
+  font-weight: bolder;
+  font-size:2.5vh;
+}
+</style>
+</head>
+
+<body>
+
+ <ul class="bar" style=>
+        <li><a href="#">Home</a>
+        </li>
+        <li><a href="#">Products</a>
+        </li>
+        <li><a href="#">About us</a>
+        </li>
+        <li><a href="#">Contact</a>
+        </li>
+         <li><a href="#">My Account</a>
+        </li>
+      </ul>
+
+<div class="intro">
+
+      <h4 style="margin-top:40px;margin-left:5vw;font-size:3vh;color:green">Go Green.</h4>
+      <!-- text start -->
+      <div class="text">
+        <div style="font-size:10vh;font-weight:bolder;padding-right:20px;">The World<br>Of Plants
+        </div>
+        <div style="line-height:5.5vh;font-size:3.5vh;">
+        Discover Everything You need to<br>know about         your plants.Treat<br>them with
+        kindness and they will<br>take care of you.</div>
+      </div>
+      <!-- text finish -->
+      <h5 style="margin:30vh 0 0 10vh">Top 6 of the week</h5>
+    </div>
+
+
+<div id="grid">
+    <div id="one"style="background:#c4e6c3">
+     <img src="plant2.png">
+     <h4 class="divtext">Lorem ipsum dolor<br>sit amet</h4>
+   </div>
+     <div id="two"style="background:#c4e6c3"><img src="plant1.png"><h4 class="divtext">Lorem ipsum dolor<br>sit amet</h4></div>
+         <div id="three" style="background:#c4e6c3"><img src="plant3.png"><h4 class="divtext">Lorem ipsum dolor<br>sit amet</h4></div>
+         <div id="four" style="background:#c4e6c3"><img src="plant4.png"><h4 class="divtext">Lorem ipsum dolor<br>sit amet</h4></div>
+         <div id="five" style="background:#c4e6c3"><img src="plant5.png"><h4 class="divtext">Lorem ipsum dolor<br>sit amet</h4></div>
+         <div id="six" style="background:#c4e6c3"><img src="plant6.png"><h4 class="divtext">Lorem ipsum dolor<br>sit amet</h4></div>
+
+
+
+</div>
+
+
+
+
+<script>
+
+
+
+</script>
+
+</body>
+</html>
